@@ -1,18 +1,22 @@
-[14/10/2022 11:20:03] - DEBUG - org.com.entity.Equipe.ajoutEquipe(...) - ajout d'un personne dans l'equipe 
-[14/10/2022 11:20:03] - DEBUG - org.com.entity.Equipe.ajoutEquipe(...) - ajout d'un personne dans l'equipe 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - didier se défend ! 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 15 dégats, le laissant à 85hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à contre-attaqué roger et lui a fait 20 dégats, le laissant à 80hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 20 dégats, le laissant à 60hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - didier se défend ! 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 15 dégats, le laissant à 70hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 20 dégats, le laissant à 40hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à contre-attaqué didier et lui a fait 20 dégats, le laissant à 50hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - didier se défend ! 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 15 dégats, le laissant à 35hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - roger se défend ! 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 15 dégats, le laissant à 25hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à contre-attaqué didier et lui a fait 20 dégats, le laissant à 15hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.NourritureUtilite.manger(...) - didier mange pomme 
-[14/10/2022 11:20:03] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 20 dégats, le laissant à -5hp 
-[14/10/2022 11:20:03] - DEBUG - org.com.entity.Personnage.estMort(...) - didier est mort. 
+[17/10/2022 10:11:41] - DEBUG - org.com.entity.Equipe.ajoutEquipe(...) - ajout d'un personne dans l'equipe 
+[17/10/2022 10:11:41] - DEBUG - org.com.entity.Equipe.ajoutEquipe(...) - ajout d'un personne dans l'equipe 
+[17/10/2022 10:11:41] - DEBUG - org.com.entity.Sacoche.getSacoche(...) - sacoche : [Nourriture{nom='pomme', poids=250, recuPtEndurance=15}, Nourriture{nom='pomme', poids=250, recuPtEndurance=15}] 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - didier se défend ! 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 15 dégats, le laissant à 85hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - didier se défend ! 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 15 dégats, le laissant à 70hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.NourritureUtilite.manger(...) - roger mange pomme 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 20 dégats, le laissant à 80hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - roger se défend ! 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 15 dégats, le laissant à 65hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.NourritureUtilite.manger(...) - didier mange pomme 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 20 dégats, le laissant à 50hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.NourritureUtilite.manger(...) - roger mange pomme 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 20 dégats, le laissant à 45hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 20 dégats, le laissant à 25hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.BouclierUtilite.defendre(...) - roger se défend ! 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à attaqué roger et lui a fait 15 dégats, le laissant à 10hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.NourritureUtilite.manger(...) - didier mange pomme 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - roger à attaqué didier et lui a fait 20 dégats, le laissant à 30hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.service.ArmeUtilite.attaquer(...) - didier à contre-attaqué roger et lui a fait 20 dégats, le laissant à -10hp 
+[17/10/2022 10:11:41] - DEBUG - org.com.entity.Personnage.estMort(...) - roger est mort. 

@@ -4,6 +4,7 @@ import org.com.entity.*;
 import org.com.service.ArmeUtilite;
 import org.com.service.BouclierUtilite;
 import org.com.service.NourritureUtilite;
+import org.com.service.PersonnageUtilite;
 
 import java.util.Random;
 
@@ -35,6 +36,8 @@ public class Main {
         p1.setBouclierEquipe(b1);
         p2.setArmeEquipe(a1);
         p2.setBouclierEquipe(b1);
+        p2.getSacoche().getSacoche();
+//        PersonnageUtilite.seDeplacer(p2, 2, "nord");
 
         while (e1.tailleEquipe() > 0 && e2.tailleEquipe() > 0) {
             boolean choixEquipe = random.nextBoolean();

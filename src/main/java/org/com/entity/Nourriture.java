@@ -23,7 +23,7 @@ public class Nourriture extends Objet{
     @Override
     public String toString() {
         return "Nourriture{" +super.toString() +
-                "recuPtEndurance=" + recuPtEndurance +
+                ", recuPtEndurance=" + recuPtEndurance +
                 '}';
     }
 }

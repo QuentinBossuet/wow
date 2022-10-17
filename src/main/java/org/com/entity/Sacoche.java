@@ -1,10 +1,14 @@
 package org.com.entity;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Sacoche {
-    List<Objet> sacoche;
+    private final List<Objet> sacoche;
+    private static final Logger LOG = LogManager.getLogger();
 
     public Sacoche() {
         sacoche = new ArrayList<>();
@@ -33,9 +37,7 @@ public class Sacoche {
         return sacoche.contains(o);
     }
 
-    public List<Objet> getSacoche() {
-        return sacoche;
-    }
+
 
     @Override
     public String toString() {

@@ -30,9 +30,8 @@ public class Objet {
 
     @Override
     public String toString() {
-        return "Objet{" +
+        return
                 "nom='" + nom + '\'' +
-                ", poids=" + poids +
-                '}';
+                ", poids=" + poids;
     }
 }

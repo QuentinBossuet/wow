@@ -21,7 +21,11 @@ public class Personnage {
         this.endurance = maxEndurance;
         this.nom = nom;
         this.armeEquipe = armeEquipe;
-        this.force = force;
+        if (force > 0) {
+            this.force = force;
+        }else {
+            this.force = 1;
+        }
         this.bouclierEquipe = null;
         this.sacoche = new Sacoche();
         this.x = random.nextInt(0, 9);
@@ -173,9 +177,6 @@ public class Personnage {
         return sacoche;
     }
 
-    public void setSacoche(Sacoche sacoche) {
-        this.sacoche = sacoche;
-    }
 
     public Bouclier getBouclierEquipe() {
         return bouclierEquipe;

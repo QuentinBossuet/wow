@@ -19,7 +19,7 @@ public class ArmeUtilite {
     **/
     public static void attaquer(Personnage attaquant, Personnage uneCible) {
 
-        if (!attaquant.estMort() && attaquant.getEndurance() != 0 && PersonnageUtilite.aCote(attaquant, uneCible)) {
+        if (!attaquant.estMort() && !uneCible.estMort() && attaquant.getEndurance() != 0 && PersonnageUtilite.aCote(attaquant, uneCible) ) {
 
             // Calcule des points de dégats à infliger
             int degatsCible = uneCible.getArmeEquipe().getPointDegats();

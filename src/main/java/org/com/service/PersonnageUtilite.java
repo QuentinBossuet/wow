@@ -11,7 +11,7 @@ public class PersonnageUtilite {
     /**
      * methode qui va faire avancer le personnage dans la direction précisée
     **/
-     public void seDeplacer(Personnage personnage, int nbCase, String direction) {
+     public static void seDeplacer(Personnage personnage, int nbCase, String direction) {
 
         // Controle que le personnage a asser d'endurance pour se déplacer
         int enduranceConsome = personnage.getSacoche().poidsSacoche() + personnage.getArmeEquipe().getPoids() + personnage.getBouclierEquipe().getPoids();
